@@ -37,5 +37,9 @@ corpus = [[word.lower() for word in text_cleared_lower.split()]]
 print("Model")
 model = Word2Vec(corpus, min_count=1)
 
-res = ocr_builder.extract_parallel(wiktionary, model, min_frequency=1000,  lemmatize=False, use_freq=True)
-print(res)
+#res = ocr_builder.extract_parallel(original_text, model, use_freq=False)
+#print(res)
+print(model.wv.vocab)
+print(original_text)
+
+#https://hackernoon.com/neural-machine-translation-using-open-nmt-for-training-a-translation-model-1129a3a2a2d3
