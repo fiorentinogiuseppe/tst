@@ -1,0 +1,5 @@
+{'guardei', 'relogio', 'e', 'cartar', 'o', 'filosofia', 'esperar'} -> frase limpa
+defaultdict(<class 'dict'>, {'relogio': {'aurido': 6, 'demon': 5}, 'caca': {'sine': 4, 'spae': 4, 'raciosa': 4, 'pooh': 4}, 'ventar': {'letor': 3}, 'cartar': {'candda': 4, 'ami': 5, 'diltando': 6, 'cijueiroseuacompanhavaos': 21, 'misttrimas': 8, 'medicamentar': 7}, 'borba': {'lobo_neve': 7}, 'durar': {'lg': 5}, 'goa': {'pasou': 4, 'cest': 4, 'pres': 4, 'sbeti': 5}, 'mamar': {'amargurar': 5, 'davame': 4}, 'pala': {'plaida': 3, 'ml': 3}, 'tres': {'peec': 3, 'escus': 4}, 'esperar': {'refeicao': 6, 'disertcava': 7}, 'lato': {'dame': 3}})
+-> extract parallel
+{'v e n t a r': ['l e t o r'], 'p a l a': ['p l a i d a', 'm l'], 't r e s': ['p e e c'], 'l a t o': ['d a m e']}
+-> remove < 3 and spaced characters
